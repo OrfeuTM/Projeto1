@@ -18,7 +18,7 @@ slider.oninput = function(){
 function generatePassword(){
 
     let pass = "";
-    for(let i = 0, n = charset.length; i < sliderElement.value; ++i){
+    for(let i = 0, n = charset.length; i < slideElement.value; ++i){
         pass += charset.charAt(Math.floor(Math.random() * n));
 
     }
